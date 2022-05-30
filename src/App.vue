@@ -5,7 +5,11 @@
     <!-- /HEADER -->
 
     <!-- MAIN -->
-    <main></main>
+    <main>
+      <!-- app banner top -->
+      <AppBannerTop />
+      <!-- /app banner top -->
+    </main>
     <!-- MAIN -->
 
     <!-- FOOTER -->
@@ -18,11 +22,13 @@
 <script>
 import AppHeader from "./assets/components/AppHeader.vue";
 import AppFooter from "./assets/components/AppFooter.vue";
+import AppBannerTop from "./assets/components/AppBannerTop.vue";
 export default {
   name: 'App',
   components: {
     AppHeader,
-    AppFooter
+    AppFooter,
+    AppBannerTop
   }
 }
 </script>
