@@ -34,7 +34,7 @@ export default {
     padding: 0;
     background-color: white;
     width: calc(100% / 3 - 20px);
-    margin: 0 5px 20px 5px;
+    margin-bottom: 30px;
     .card_list {
         border-top: 1px solid lightgray;
         padding: 10px 0 0 0;
