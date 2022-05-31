@@ -14,6 +14,22 @@
       <AppCoursesSection />
       <!-- /courses section -->
 
+      <!-- my book jumbotron -->
+      <AppBookJumbotron />
+      <!-- /my book jumbotron  -->
+
+      <!-- why my courses section -->
+      <AppWhySection />
+      <!-- /why my courses section -->
+
+      <!-- app statistcs jumbtron  -->
+      <AppStatisticsJumbotron />
+      <!-- /app statistcs jumbtron  -->
+
+      <!-- app prefooter section -->
+      <AppPrefooterSection />
+      <!-- app prefooter section -->
+
     </main>
     <!-- MAIN -->
 
@@ -28,14 +44,22 @@
 import AppHeader from "./assets/components/AppHeader.vue";
 import AppFooter from "./assets/components/AppFooter.vue";
 import AppBannerTop from "./assets/components/AppBannerTop.vue";
-import AppCoursesSection from "./assets/components/AppCoursesSection"
+import AppCoursesSection from "./assets/components/AppCoursesSection.vue";
+import AppBookJumbotron from "./assets/components/AppBookJumbotron.vue";
+import AppWhySection from "./assets/components/AppWhySection.vue";
+import AppStatisticsJumbotron from "./assets/components/AppStatisticsJumbotron.vue";
+import AppPrefooterSection from "./assets/components/AppPrefooterSection.vue"
 export default {
   name: 'App',
   components: {
     AppHeader,
     AppFooter,
     AppBannerTop,
-    AppCoursesSection
+    AppCoursesSection,
+    AppBookJumbotron,
+    AppWhySection,
+    AppStatisticsJumbotron,
+    AppPrefooterSection
   }
 }
 </script>
