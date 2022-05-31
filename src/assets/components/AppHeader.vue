@@ -9,6 +9,9 @@
 <script>
 export default {
     name: 'AppHeader',
+    props: {
+        headerNavItems: Array,
+    }
 }
 </script>
 

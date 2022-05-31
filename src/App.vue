@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <!-- HEADER -->
-    <AppHeader />
+    <AppHeader :headerNavItems="headerVoices"/>
     <!-- /HEADER -->
 
     <!-- MAIN -->
@@ -49,6 +49,7 @@ import AppBookJumbotron from "./assets/components/AppBookJumbotron.vue";
 import AppWhySection from "./assets/components/AppWhySection.vue";
 import AppStatisticsJumbotron from "./assets/components/AppStatisticsJumbotron.vue";
 import AppPrefooterSection from "./assets/components/AppPrefooterSection.vue"
+
 export default {
   name: 'App',
   components: {
@@ -60,7 +61,33 @@ export default {
     AppWhySection,
     AppStatisticsJumbotron,
     AppPrefooterSection
-  }
+  },
+  data() {
+    return {
+      headerVoices: [
+      {
+        content: 'Courses',
+        id: 1
+      },
+      {
+        content: 'Courses Formats',
+        id: 2
+      },
+      {
+        content: 'Add Course',
+        id: 3
+      },
+      {
+        content: 'Pages',
+        id: 4
+      },
+      {
+        content: 'Demos',
+        id: 5
+      }
+      ]
+    }
+  },
 }
 </script>
 
