@@ -25,12 +25,14 @@ export default {
     padding-top: 500px;
     position: relative;
     .banner_text {
-        width: 30%;
+        // width: 30%;
+        max-width: 350px;
         border: 1px solid white;
         text-align: center;
         position: absolute;
-        left: 25%;
-        bottom: 40%;
+        left: 40%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 }
 </style>
