@@ -65,27 +65,33 @@ export default {
   data() {
     return {
       headerVoices: [
-      {
-        content: 'Courses',
-        id: 1
-      },
-      {
-        content: 'Courses Formats',
-        id: 2
-      },
-      {
-        content: 'Add Course',
-        id: 3
-      },
-      {
-        content: 'Pages',
-        id: 4
-      },
-      {
-        content: 'Demos',
-        id: 5
-      }
-      ]
+        {
+          content: 'Courses',
+          id: 1,
+          new: null
+          
+        },
+        {
+          content: 'Courses Formats',
+          id: 2,
+          new: null
+        },
+        {
+          content: 'Add Course',
+          id: 3,
+          new: true
+        },
+        {
+          content: 'Pages',
+          id: 4,
+          new: null
+        },
+        {
+          content: 'Demos',
+          id: 5,
+          new: null
+        }
+      ],
     }
   },
 }
