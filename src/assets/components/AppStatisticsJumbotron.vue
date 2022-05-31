@@ -1,7 +1,7 @@
 <template>
 <section class="statistics_jumbotron">
     <div class="container">
-        <ul class="row row-cols-4">
+        <ul class="row row-cols-4 text-center">
             <li>item</li>
             <li>item</li>
             <li>item</li>
@@ -24,5 +24,9 @@ export default {
     background-position: top;
     background-size: cover;
     padding: 210px 0;
+    ul {
+        list-style: none;
+        color: white;
+    }
 }
 </style>
