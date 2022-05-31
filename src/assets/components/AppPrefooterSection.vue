@@ -14,7 +14,7 @@
 </template>
 <script>
 export default {
-    
+    name: 'AppPrefooterSection',
 }
 </script>
 <style lang="scss" scoped>
