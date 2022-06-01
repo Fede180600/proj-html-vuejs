@@ -23,7 +23,7 @@
       <!-- /why my courses section -->
 
       <!-- app statistcs jumbtron  -->
-      <AppStatisticsJumbotron />
+      <AppStatisticsJumbotron :statisticsArray="statistics"/>
       <!-- /app statistcs jumbtron  -->
 
       <!-- app prefooter section -->
@@ -188,6 +188,28 @@ export default {
           text: "Vestibulum vitae aliquam nunc. Suspendisse mollis metus ac tellus egestas pharetra. Suspendisse at     viverra purus. Pellentesque nec posuere ligula, eu congue leo. Integer vulputate tempor arcu. Vestibulum vulputate"
         },
         
+      ],
+      statistics: [
+        {
+          icon: "fas fa-user-friends",
+          number: 3195,
+          text: "Online Learner"
+        },
+        {
+          icon: "fas fa-film",
+          number: 23,
+          text: "Video Corses"
+        },
+        {
+          icon: "fas fa-image",
+          number: 437,
+          text: "Sliders & Images"
+        },
+        {
+          icon: "fas fa-thumbs-up",
+          number: 1440,
+          text: "Excellent Reviews"
+        },
       ]
     }
   },
