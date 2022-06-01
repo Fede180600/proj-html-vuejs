@@ -19,7 +19,7 @@
       <!-- /my book jumbotron  -->
 
       <!-- why my courses section -->
-      <AppWhySection />
+      <AppWhySection :whyArray="why"/>
       <!-- /why my courses section -->
 
       <!-- app statistcs jumbtron  -->
@@ -165,6 +165,29 @@ export default {
           duration: "6 Hours",
           special: null
         }
+      ],
+      why: [
+        {
+          icon: "fas fa-briefcase",
+          title: "Entrepreneurship",
+          text: "Vestibulum vitae aliquam nunc. Suspendisse mollis metus ac tellus egestas pharetra. Suspendisse at     viverra purus. Pellentesque nec posuere ligula, eu congue leo. Integer vulputate tempor arcu. Vestibulum vulputate"
+        },
+        {
+          icon: "fas fa-rocket",
+          title: "Accelerated learning",
+          text: "Vestibulum vitae aliquam nunc. Suspendisse mollis metus ac tellus egestas pharetra. Suspendisse at     viverra purus. Pellentesque nec posuere ligula, eu congue leo. Integer vulputate tempor arcu. Vestibulum vulputate"
+        },
+        {
+          icon: "fas fa-thumbs-up",
+          title: "Productivity",
+          text: "Vestibulum vitae aliquam nunc. Suspendisse mollis metus ac tellus egestas pharetra. Suspendisse at     viverra purus. Pellentesque nec posuere ligula, eu congue leo. Integer vulputate tempor arcu. Vestibulum vulputate"
+        },
+        {
+          icon: "fas fa-cog",
+          title: "Life Coaching",
+          text: "Vestibulum vitae aliquam nunc. Suspendisse mollis metus ac tellus egestas pharetra. Suspendisse at     viverra purus. Pellentesque nec posuere ligula, eu congue leo. Integer vulputate tempor arcu. Vestibulum vulputate"
+        },
+        
       ]
     }
   },
