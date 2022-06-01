@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@fontsource/roboto": "^4.5.7",
     "@fontsource/roboto-slab": "^4.5.8",
     "@fortawesome/fontawesome-free": "^5.15.4",
     "bootstrap": "^5.1.3",
