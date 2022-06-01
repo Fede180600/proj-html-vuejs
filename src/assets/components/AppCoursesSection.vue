@@ -1,14 +1,9 @@
 <template>
-    <section style="background-color: #e4e7e7; padding: 50px 0; ">
+    <section style="background-color: #edf2f5; padding: 60px 0; ">
         <div class="container">
-            <h2 style="text-align: center; margin-bottom: 30px;">New Courses</h2>
+            <h2 style="text-align: center; margin-bottom: 50px; font-size: 2.8rem; font-weight: 800;">New Courses</h2>
             <div class="row row-cols-3 justify-content-between">
-                <AppCourseCard />
-                <AppCourseCard />
-                <AppCourseCard />
-                <AppCourseCard />
-                <AppCourseCard />
-                <AppCourseCard />
+                <AppCourseCard v-for="(card, index) in coursesArray" :key="index" :courseCard="card"/>
             </div>
         </div>
     </section>
@@ -20,6 +15,9 @@ export default {
     name: 'AppCoursesSection',
     components: {
         AppCourseCard
+    },
+    props: {
+        coursesArray: Array
     }
 }
 </script>

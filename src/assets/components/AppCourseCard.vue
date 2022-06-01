@@ -1,19 +1,19 @@
 <template>
     <div class="my_card">
         <div class="img_container">
-            <img src="../img/photo-1496307042754-b4aa456c4a2d-370x200.jpeg" alt="">
+            <img :src="require(`../img/${courseCard.poster}`)" alt="">
         </div>
 
         <div class="text">
-            <h5>How to be a DJ? Make Elettronic Music</h5>
-            <small>Electronic</small>
+            <h5>{{ courseCard.title }}</h5>
+            <small>{{ courseCard.type }}}</small>
         </div>
 
         <div class="container">
             <ul class="row row-cols-3  card_list">
-                <li><i class="fas fa-signal"></i></li>
-                <li><i class="fas fa-list"></i></li>
-                <li><i class="fas fa-clock"></i></li>
+                <li><i class="fas fa-signal"></i>{{ courseCard.level }}</li>
+                <li><i class="fas fa-list"></i>{{ courseCard.lectures }}</li>
+                <li><i class="fas fa-clock"></i>{{ courseCard.duration }}</li>
             </ul>
         </div>
 
@@ -24,6 +24,9 @@
 
 export default {
     name: 'AppCourseCard',
+    props: {
+        courseCard: Object
+    }
 }
 </script>
 
