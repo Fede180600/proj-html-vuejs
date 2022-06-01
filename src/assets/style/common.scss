@@ -1,12 +1,18 @@
 @import "~bootstrap/scss/bootstrap.scss";
+@import "./variable.scss";
+@import "~@fontsource/roboto-slab/200.css";
+@import "~@fontsource/roboto-slab/400.css";
+@import "~@fontsource/roboto-slab/600.css";
+@import "~@fontsource/roboto-slab/800.css";
 
-
-@import "~@fontsource/bree-serif/index.css";
 body {
-    font-family: 'bree-serif', serif;
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
 }
 
-
+.text_brand_primary_color {
+    color: $brand-primary-color;
+}
 
 img {
     width: 100%;
