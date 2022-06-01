@@ -48,8 +48,8 @@ export default {
             color: white;
             font-size: .6rem;
             font-weight: 800;
-            border-radius: 5px;
-            padding: 2px 5px;
+            border-radius: 2px;
+            padding: 3px 2px;
             position: absolute;
             top: 10px; 
             right: 10px;
