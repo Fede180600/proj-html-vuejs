@@ -30,21 +30,21 @@
 
         <div class="banner_bottom">
             <div class="container">
-                <div class="row row-cols-2">
+                <div class="row row-cols-2 justify-content-center">
                     <div
-                        style="border: 1px solid black; width: 45%; display: flex; flex-direction: column; justify-content: center;">
-                        <h2>Hi there, my name is Jhon Doe, I'm the founder of the Brain Accademy</h2>
-                        <img src="../img/sign.jpg" alt="firma Jhon Doe">
+                        style="width: 40%; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                        <h2>Hi there, my name is Jhon Doe, I'm the founder of the Brain Accademy.</h2>
+                        <img src="../img/sign.jpg" alt="firma Jhon Doe" style="width: 30%; margin-top: 20px;">
                     </div>
                     <div>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis voluptatibus ullam a
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis voluptatibus ullam a
                             ducimus quidem, molestiae aut officiis aliquam eum tenetur facilis aliquid nihil deleniti et
                             quam quibusdam praesentium commodi sed. Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Expedita sequi sed aut labore sint tempora accusamus cumque laborum beatae tenetur,
                             nisi aspernatur sit odio ipsum, odit, eos nulla praesentium ullam! Lorem ipsum dolor sit
-                            amet consectetur adipisicing elit. Maiores porro omnis corrupti minima nobis cum ratione
-                            laboriosam officiis velit laudantium perferendis repellat veniam temporibus ullam quidem
-                            aliquam, culpa, provident expedita!</p>
+                            amet consectetur adipisicing elit.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -94,18 +94,18 @@ export default {
 
     &_middle {
         height: 200px;
-        width: 70%;
+        width: 68%;
         padding: 30px 80px;
         background-color: $brand-primary-color;
         position: absolute;
         left: 50%;
-        top: 40%;
+        top: 45%;
         transform: translate(-50%, 50%);
         border-radius: 10px;
         h2 {
             margin-bottom: 15px;
             display: inline-block;
-            font-size: 2rem;
+            font-size: 1.9rem;
             font-weight: 800;
         }
         input,
@@ -146,7 +146,14 @@ export default {
     }
 
     &_bottom {
-        padding: 200px 0 50px 0;
+        padding: 150px 0 100px 0;
+        h2 {
+            font-size: 2.2rem;
+            font-weight: 800;
+        }
+        p {
+            line-height: 30px;
+        }
     }
 }
 </style>
