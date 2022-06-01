@@ -62,17 +62,17 @@ export default {
         margin-top: 100px;
 
         .banner_text {
-            width: 24%;
+            width: 25%;
             position: absolute;
-            top: 22%;
-            right: 15vw;
+            top: 20%;
+            right: 14vw;
             transform: translate(-50%, -50%);
             h2 {
                 font-weight: 800;
-                font-size: 3rem;
+                font-size: 3.2rem;
             }
             p {
-                font-size: 18px;
+                font-size: 1rem;
                 color: #363636;
             }
         }
