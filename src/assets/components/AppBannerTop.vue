@@ -153,6 +153,7 @@ export default {
         }
         p {
             line-height: 30px;
+            font-family: 'Roboto', sans-serif;
         }
     }
 }
