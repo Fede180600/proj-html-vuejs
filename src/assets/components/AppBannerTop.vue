@@ -15,7 +15,18 @@
             </div>
         </div>
 
-        <div class="banner_middle"></div>
+        <div class="banner_middle">
+            <h2><h2 style="color: white;">Limited Sale:</h2> All Courses with 55% off</h2>
+            <br>
+            <input type="text" placeholder="Enter your E-mail">
+            <button>subscribe</button>
+            <div class="countdown_container d-flex justify-content-between" style=";">
+                <div class="countdown_box" v-for="(item, index) in countdown" :key="index">
+                    <h3>{{ item.number }}</h3>
+                    <small>{{ item.description }}</small>
+                </div>
+            </div>
+        </div>
 
         <div class="banner_bottom">
             <div class="container">
@@ -43,7 +54,10 @@
 
 <script>
 export default {
-    name: 'AppBannerTop'
+    name: 'AppBannerTop',
+    props: {
+        countdown: Array
+    }
 }
 </script>
 
@@ -80,13 +94,55 @@ export default {
 
     &_middle {
         height: 200px;
-        width: 65%;
+        width: 70%;
+        padding: 30px 80px;
         background-color: $brand-primary-color;
         position: absolute;
         left: 50%;
         top: 40%;
         transform: translate(-50%, 50%);
         border-radius: 10px;
+        h2 {
+            margin-bottom: 15px;
+            display: inline-block;
+            font-size: 2rem;
+            font-weight: 800;
+        }
+        input,
+        button {
+            padding: 15px 20px;
+            border: 0;
+            outline: none;
+            border-radius: 50px;
+            font-size: .9rem;
+        }
+        input {
+            width: 40%;
+        }
+        button {
+            position: relative;
+            right: 40px;
+            background-color: #2d4649;
+            text-transform: uppercase;
+            color: white;
+        }
+        .countdown_container {
+            position: relative;
+            bottom: 60px;
+            float: right; 
+            width: 40%;
+            .countdown_box {
+                text-align: center;
+                h3 {
+                font-size: 3.8rem;
+                font-weight: 800;
+                color: white;
+                }
+                small {
+                    font-weight: 800;
+                }
+            }
+        }
     }
 
     &_bottom {

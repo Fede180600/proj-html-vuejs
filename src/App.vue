@@ -7,7 +7,7 @@
     <!-- MAIN -->
     <main>
       <!-- banner top -->
-      <AppBannerTop />
+      <AppBannerTop :countdown="countdownElements"/>
       <!-- /banner top -->
 
       <!-- courses section -->
@@ -92,6 +92,24 @@ export default {
           new: null
         }
       ],
+      countdownElements: [
+        {
+          number: 26,
+          description: "Days"
+        },
+        {
+          number: 12,
+          description: "Hours"
+        },
+        {
+          number: 47,
+          description: "Minutes"
+        },
+        {
+          number: 34,
+          description: "Seconds"
+        },
+      ]
     }
   },
 }
