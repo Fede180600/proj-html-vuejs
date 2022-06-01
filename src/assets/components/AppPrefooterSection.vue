@@ -42,7 +42,7 @@ export default {
 <style lang="scss" scoped>
 @import "../style/variable.scss";
 .prefooter_section {
-    padding: 80px 0;
+    padding: 70px 0;
     text-align: center;
     .students_small_slider {
         height: 60px;
