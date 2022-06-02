@@ -133,6 +133,7 @@ export default {
             width: 40%;
             .countdown_box {
                 text-align: center;
+                margin-left: 10px;
                 h3 {
                 font-size: 3.8rem;
                 font-weight: 800;
