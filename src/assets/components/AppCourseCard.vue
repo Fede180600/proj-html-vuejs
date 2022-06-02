@@ -3,6 +3,7 @@
         <div class="img_container">
             <img :src="require(`../img/${courseCard.poster}`)" alt="">
             <span v-if="courseCard.special">special</span>
+            <div class="layover"><p class="price">{{ courseCard.price }}</p></div>
         </div>
 
         <div class="text">
@@ -54,6 +55,25 @@ export default {
             top: 10px; 
             right: 10px;
         }
+        .layover {
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, .5);
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: none;
+            p {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: white;
+                font-weight: 800;
+
+            }
+            
+        }
     }
     .text {
         margin-bottom: 20px;
@@ -79,5 +99,8 @@ export default {
             margin-right: 5px;
         }
     }
+}
+.my_card:hover .layover {
+    display: block;
 }
 </style>
