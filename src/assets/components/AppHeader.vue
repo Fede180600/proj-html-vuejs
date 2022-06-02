@@ -54,6 +54,9 @@ header {
             list-style: none;
             height: 40px;
             font-weight: 600;
+            li {
+                cursor: pointer;
+            }
         }
         i {
             margin: 0 5px;
