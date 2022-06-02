@@ -36,4 +36,7 @@ button {
     border-radius: 50px;
     padding: 10px 20px;
 }
+button:hover {
+    background-color: rgb(221, 144, 0);
+}
 </style>
