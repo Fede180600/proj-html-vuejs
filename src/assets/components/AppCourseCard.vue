@@ -43,7 +43,7 @@ export default {
         margin-bottom: 30px;
         position: relative;
         span {
-            background-color: $brand-secondary-color;
+            background-color: #f09b23;
             text-transform: uppercase;
             color: white;
             font-size: .6rem;
