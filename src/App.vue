@@ -118,6 +118,7 @@ export default {
           level: "Advanced",
           lectures: "8 Lectures",
           duration: "6 Hours",
+          price: "$ 38.55",
           special: true
         },
         {
@@ -127,6 +128,7 @@ export default {
           level: "Advanced",
           lectures: "8 Lectures",
           duration: "6 Hours",
+          price: "$ 55.00",
           special: true
         },
         {
@@ -136,6 +138,7 @@ export default {
           level: "Advanced",
           lectures: "6 Lectures",
           duration: "6 Hours",
+          price: "$ 42.50",
           special: true
         },
         {
@@ -145,6 +148,7 @@ export default {
           level: "Intermediate",
           lectures: "6 Lectures",
           duration: "6 Hours",
+          price: "$ 30.00",
           special: null
         },
         {
@@ -154,6 +158,7 @@ export default {
           level: "Intermediate",
           lectures: "6 Lectures",
           duration: "6 Hours",
+          price: "$ 25.00",
           special: null
         },
         {
@@ -163,6 +168,7 @@ export default {
           level: "Advanced",
           lectures: "6 Lectures",
           duration: "6 Hours",
+          price: "$ 23.99",
           special: null
         }
       ],
