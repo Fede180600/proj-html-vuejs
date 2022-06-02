@@ -34,7 +34,7 @@
     <!-- MAIN -->
 
     <!-- FOOTER -->
-    <AppFooter />
+    <AppFooter :footerElementsArray="footerElements"/>
     <!-- /FOOTER -->
 
   </div>
@@ -210,6 +210,63 @@ export default {
           number: 1440,
           text: "Excellent Reviews"
         },
+      ],
+      footerElements: [
+        {
+          title: "About",
+          text: "Masterstudy is Education WordPress theme featured by Learning Management System (LMS) for online education. Developed by StylemixThemes.",
+          icons: ["fab fa-facebook", "fab fa-twitter", "fab fa-instagram"],
+          address: null,
+          cell: null,
+          fax: null,
+          email: null,
+          list: null,
+          articles: null
+        },
+        {
+          title: "Contact",
+          text: null,
+          icons: null,
+          address: "USA, Callifornia 20, First Avenue, Callifornia",
+          tel: "+1 212 458 300 32 ",
+          fax: "+1 2123752414",
+          email: "info@masterstudy.com ",
+          list: null,
+          articles: null
+        },
+        {
+          title: "Pages",
+          text: null,
+          icons: null,
+          address: null,
+          cell: null,
+          fax: null,
+          email: null,
+          list: ["Blog", "Home", "Shortcodes", "Courses", "Membership", "Typography"],
+          articles: null
+        },
+        {
+          title: "Blog",
+          text: null,
+          icons: null,
+          address: null,
+          cell: null,
+          fax: null,
+          email: null,
+          list: null,
+          articles: [
+            {
+              poster: "photo-1517520287167-4bbf64a00d66-50x50.jpeg",
+              article_title: "Our main target is to 'Developing Yourself as a Leader'",
+              date: "-August 9, 2018"
+            },
+            {
+              poster: "photo-1490376840453-5f616fbebe5b-50x50.jpeg",
+              article_title: "Those Other College Expenses You Aren't Thinking About",
+              date: "-June 3, 2015"
+            }
+          ]
+        }
       ]
     }
   },
