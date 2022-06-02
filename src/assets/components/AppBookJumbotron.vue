@@ -1,10 +1,16 @@
 <template>
     <div class="banner_bottom">
     <div class="container">
-        <img src="../img/book.png" alt="" style="width: 25%; max-width: 700px; min-width: 430px; position: absolute; bottom: 0; right: 12%; ">
+        <img src="../img/book.png" alt="" style="width: 25%; max-width: 450px; min-width: 440px; position: absolute; bottom: 0; right: 12%; ">
         <div class="banner_text">
-            <h2>Get my exclusive investing book just for $19.50</h2>
-            <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ipsam similique laudantium, recusandae vero nam ex deleniti perspiciatis, animi sed odio exercitationem velit molestiae reiciendis. Sapiente atque modi quis tenetur?</i>
+            <h2 class="text_brand_primary_color">Get My Exclusive Investing Book just for $19.50</h2>
+            <i>
+                Vestibulum imentum eu urna vel cursus. Aenean 
+                vehicula quam quam, vitae pellentesque urna 
+                elementum cursus. 
+            </i>
+            
+            <div><img src="../img/amazon.png" alt="" style="width: 40%; margin-top: 20px;"></div>
         </div>
     </div>
     </div>
@@ -25,14 +31,21 @@ export default {
     padding-top: 500px;
     position: relative;
     .banner_text {
-        // width: 30%;
-        max-width: 350px;
-        border: 1px solid white;
+        max-width: 450px;
         text-align: center;
         position: absolute;
         left: 40%;
         top: 50%;
         transform: translate(-50%, -50%);
+        h2 {
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        i {
+            color: white;
+            font-size: 1.2rem;
+            font-family: 'Roboto', sans-serif;
+        }
     }
 }
 </style>
